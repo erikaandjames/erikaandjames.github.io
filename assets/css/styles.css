@@ -88,6 +88,34 @@ a.nav-item:hover {
 	background-color: transparent; 
 }
 
+.countdown-timer {
+    text-align: center;
+    margin: 40px 0;
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Change this color to match your theme */
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#timer div {
+    background: #f3f3f3; /* Background color for each timer block */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    min-width: 80px;
+}
+
+#timer span {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff4081; /* Accent color for numbers */
+}
+
 @media screen and (max-width: 768px) {
 	.nav-menu {
 		background-color: #063647;
