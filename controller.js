@@ -14,9 +14,9 @@ window.addEventListener('scroll', function() {
   const scrollPosition = window.scrollY;
 
   const parallaxBackground = document.querySelector('.parallax-background');
-  const parallaxClouds = document.querySelector('.parallax-clouds');
+  // const parallaxClouds = document.querySelector('.parallax-clouds');
 
   // Adjust the multipliers based on testing
   parallaxBackground.style.transform = `translateY(${scrollPosition * -0.4}px)`;
-  parallaxClouds.style.transform = `translateY(${scrollPosition * -0.2}px)`;
+  // parallaxClouds.style.transform = `translateY(${scrollPosition * -0.2}px)`;
 });
