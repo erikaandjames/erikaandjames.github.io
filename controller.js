@@ -13,10 +13,10 @@ window.onload = () => {
 window.addEventListener('scroll', function() {
   const scrollPosition = window.scrollY;
 
-  // Adjust parallax layers
   const parallaxBackground = document.querySelector('.parallax-background');
   const parallaxClouds = document.querySelector('.parallax-clouds');
 
-  parallaxBackground.style.transform = `translateY(${scrollPosition * 0.3}px)`;
-  parallaxClouds.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+  // Adjust the multipliers based on testing
+  parallaxBackground.style.transform = `translateY(${scrollPosition * -0.4}px)`;
+  parallaxClouds.style.transform = `translateY(${scrollPosition * -0.2}px)`;
 });
