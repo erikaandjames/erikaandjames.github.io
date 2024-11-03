@@ -92,36 +92,36 @@ a.nav-item:hover {
 	background-color: transparent; 
 }
 
-.countdown-timer {
-    text-align: center;
-    margin: 40px 0;
-    font-family: 'Arial', sans-serif;
-    color: #063647; /* Change this color to match your theme */
-}
-
-#timer {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-#timer div {
-    background: #f3f3f3; /* Background color for each timer block */
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    min-width: 80px;
-}
-
-#timer span {
-    display: block;
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #89CFF0; /* Accent color for numbers */
-}
-
 .parallax-background {
     background-image: url('../img/bg2.png');
+	background-color: lightblue;
+	opacity: 0.42; 
+    position: fixed;
+    width: 100%;
+    height: 124vh;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    z-index: -3;
+}
+
+.parallax-2-background {
+    background-image: url('../img/castle.JPEG');
+	background-color: lightblue;
+	opacity: 0.42; 
+    position: fixed;
+    width: 100%;
+    height: 124vh;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    z-index: -3;
+}
+
+.parallax-3-background {
+    background-image: url('../img/2022.10.01 K & J Wedding _ Kristy Taylor Co.-842.JPEG');
 	background-color: lightblue;
 	opacity: 0.42; 
     position: fixed;
