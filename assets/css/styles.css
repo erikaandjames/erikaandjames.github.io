@@ -123,6 +123,7 @@ a.nav-item:hover {
 .parallax-background {
     background-image: url('../img/bg.png');
 	background-color: lightblue;
+	opacity: 0.7; 
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -131,16 +132,6 @@ a.nav-item:hover {
     background-position: center;
     background-size: cover;
     z-index: -3;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.69); /* White overlay with 70% opacity */
-    z-index: 1;
 }
 
 /* .parallax-clouds {
