@@ -139,7 +139,7 @@ a.nav-item:hover {
     top: 0;
     left: 0;
     background-image: url('../img/cloud.jpeg'); /* Add your cloud image here */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
     z-index: -2;
