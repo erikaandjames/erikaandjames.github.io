@@ -38,9 +38,9 @@ section{
 	padding: 0.2rem;
 }
 
-a.nav-item {
+/* a.nav-item {
 	color: #dfdfdf;
-}
+} */
 
 a.nav-item:hover {
 	color: #fff;
