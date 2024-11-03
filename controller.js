@@ -9,3 +9,14 @@ window.onload = () => {
   hamburger.addEventListener('click', () => toggle(navMenu, 'is-active'));
   Array.from(navItems).forEach(e => e.addEventListener('click', toggleNav));
 }
+
+window.addEventListener('scroll', function() {
+  const scrollPosition = window.scrollY;
+
+  // Adjust parallax layers
+  const parallaxBackground = document.querySelector('.parallax-background');
+  const parallaxClouds = document.querySelector('.parallax-clouds');
+
+  parallaxBackground.style.transform = `translateY(${scrollPosition * 0.3}px)`;
+  parallaxClouds.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+});
