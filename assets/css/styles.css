@@ -121,7 +121,7 @@ a.nav-item:hover {
 }
 
 .parallax-background {
-    background-image: url('assets/img/bg.JPEG');
+    background-image: url('../img/bg.JPEG');
 	background-color: lightblue;
     position: fixed;
     width: 100%;
@@ -138,7 +138,7 @@ a.nav-item:hover {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url('assets/img/cloud.JPEG'); /* Add your cloud image here */
+    background-image: url('../img/cloud.JPEG'); /* Add your cloud image here */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
