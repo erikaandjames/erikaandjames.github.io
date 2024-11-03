@@ -13,10 +13,12 @@ window.onload = () => {
 window.addEventListener('scroll', function() {
   const scrollPosition = window.scrollY;
 
-  const parallaxBackground = document.querySelector('.parallax-background');
-  // const parallaxClouds = document.querySelector('.parallax-clouds');
+  const parallaxBackground1 = document.querySelector('.parallax-background');
+  const parallaxBackground2 = document.querySelector('.parallax-2-background');
+  const parallaxBackground3 = document.querySelector('.parallax-3-background');
 
-  // Adjust the multipliers based on testing
-  parallaxBackground.style.transform = `translateY(${scrollPosition * -0.4}px)`;
-  // parallaxClouds.style.transform = `translateY(${scrollPosition * -0.2}px)`;
+  // Apply parallax effect with slight upward movement
+  if (parallaxBackground1) parallaxBackground1.style.transform = `translateY(${scrollPosition * -0.2}px)`;
+  if (parallaxBackground2) parallaxBackground2.style.transform = `translateY(${scrollPosition * -0.1}px)`;
+  if (parallaxBackground3) parallaxBackground3.style.transform = `translateY(${scrollPosition * -0.05}px)`;
 });
