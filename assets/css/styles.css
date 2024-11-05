@@ -179,7 +179,7 @@ a.nav-item:hover {
     position: relative;
 	width: 30%;
     top: 10%;
-    left: 0%;
+    left: -5%;
     animation: floatHorizontally 15s infinite linear;	
 	z-index: 1;
 }
@@ -188,8 +188,8 @@ a.nav-item:hover {
     position: relative;
 	width: 30%;
     top: 15%;
-    left: 4%;
-    animation: floatHorizontally 18s infinite alternate;
+    left: -15%;
+    animation: floatFadeAcross 18s infinite alternate;
 	animation-delay: 2s;
 	z-index: 2;
 }
@@ -198,7 +198,7 @@ a.nav-item:hover {
     position: relative;
 	width: 30%;
     top: 18%;
-    left: 2%;
+    left: -10%;
     animation: floatHorizontally 15s infinite alternate;
 	animation-delay: 1s;
 	z-index: 3;
@@ -224,6 +224,27 @@ a.nav-item:hover {
 @keyframes floatVertically {
     0% { transform: translateY(0); }
     100% { transform: translateY(-50px); }
+}
+
+@keyframes floatFadeAcross {
+    0% {
+        transform: translateX(0) translateY(0);
+        opacity: 0;
+    }
+    25% {
+        opacity: 1; /* Fully visible */
+    }
+    50% {
+        transform: translateX(50vw) translateY(-20px);
+        opacity: 1;
+    }
+    75% {
+        opacity: 1; /* Fully visible */
+    }
+    100% {
+        transform: translateX(100vw) translateY(0);
+        opacity: 0;
+    }
 }
 
 /* .video-section {
