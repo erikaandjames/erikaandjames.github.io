@@ -31,7 +31,7 @@ section{
 }
 
 .section-2 {
-    background-image: url('../img/castle.JPEG'); /* Replace with Venue background */
+    background-image: url('../img/castle-1.JPEG'); /* Replace with Venue background */
 }
 
 .section-3 {
@@ -39,7 +39,11 @@ section{
 }
 
 .section-4 {
-    background-image: url('../img/bg2.png'); /* Replace with Welcome background */
+    background-image: url('../img/library.png'); /* Replace with Welcome background */
+}
+
+.section-5 {
+    background-image: url('../img/golf-2.png'); /* Replace with Welcome background */
 }
 
 /* a.nav-item {
