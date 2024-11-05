@@ -165,6 +165,7 @@ a.nav-item:hover {
 
 .animated-png {
     position: absolute;
+	width: 80px;
     top: 10%;
     left: 5%;
     animation: float 15s infinite linear;
