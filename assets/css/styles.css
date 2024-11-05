@@ -189,7 +189,7 @@ a.nav-item:hover {
 	width: 30%;
     top: 15%;
     left: 4%;
-    animation: fadeFloat 18s infinite linear;
+    animation: floatHorizontally 18s infinite alternate;
 	animation-delay: 2s;
 	z-index: 2;
 }
@@ -199,7 +199,7 @@ a.nav-item:hover {
 	width: 30%;
     top: 18%;
     left: 2%;
-    animation: fadeFloat 15s infinite linear;
+    animation: floatHorizontally 15s infinite alternate;
 	animation-delay: 1s;
 	z-index: 3;
 }
