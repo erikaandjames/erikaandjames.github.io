@@ -176,16 +176,16 @@ a.nav-item:hover {
 }
 
 .animated-png {
-    position: absolute;
+    position: relative;
 	width: 30%;
     top: 10%;
     left: 0%;
-    animation: float 15s infinite linear;	
+    animation: floatHorizontally 15s infinite linear;	
 	z-index: 1;
 }
 
 .animated-png-2 {
-    position: absolute;
+    position: relative;
 	width: 30%;
     top: 15%;
     left: 4%;
@@ -195,7 +195,7 @@ a.nav-item:hover {
 }
 
 .animated-png-3 {
-    position: absolute;
+    position: relative;
 	width: 30%;
     top: 18%;
     left: 2%;
@@ -213,6 +213,17 @@ a.nav-item:hover {
     0% { transform: translateY(0); opacity: 0; }
     50% { opacity: 1; }
     100% { transform: translateY(-50px); opacity: 0; }
+}
+
+@keyframes floatHorizontally {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100vw); }
+}
+
+/* Vertical Float */
+@keyframes floatVertically {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
 }
 
 /* .video-section {
