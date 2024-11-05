@@ -331,7 +331,7 @@ a.nav-item:hover {
         opacity: 1;
     }
     25% {
-        transform: translateX(300px) translateY(-100px) scale(1); /* Arcing up */
+        transform: translateX(10%) translateY(-10%) scale(1); /* Arcing up */
     }
 
     /* Bounce on Landing */
