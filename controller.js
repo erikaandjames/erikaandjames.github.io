@@ -17,12 +17,14 @@ window.addEventListener('scroll', function() {
   const section2 = document.querySelector('.section-2');
   const section3 = document.querySelector('.section-3');
   const section4 = document.querySelector('.section-4');
+  const section5 = document.querySelector('.section-5');
 
   // Apply slight upward movement to each section to enhance parallax effect
   if (section1) section1.style.transform = `translateY(${scrollPosition * -0.1}px)`;
   if (section2) section2.style.transform = `translateY(${scrollPosition * -0.05}px)`;
   if (section3) section3.style.transform = `translateY(${scrollPosition * -0.03}px)`;
   if (section4) section4.style.transform = `translateY(${scrollPosition * -0.02}px)`;
+  if (section5) section4.style.transform = `translateY(${scrollPosition * -0.02}px)`;
 });
 
 
