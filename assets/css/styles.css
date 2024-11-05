@@ -163,6 +163,18 @@ a.nav-item:hover {
     z-index: 1;
 }
 
+.animated-png {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    animation: float 15s infinite linear;
+}
+
+@keyframes float {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100vw); }
+}
+
 /* .video-section {
     position: relative;
     width: 100%;
