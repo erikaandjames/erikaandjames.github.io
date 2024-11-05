@@ -181,6 +181,7 @@ a.nav-item:hover {
     top: 10%;
     left: 0%;
     animation: float 15s infinite linear;	
+	z-index: 1;
 }
 
 .animated-png-2 {
@@ -188,8 +189,9 @@ a.nav-item:hover {
 	width: 30%;
     top: 15%;
     left: 4%;
-    animation: fadeFloat 15s infinite linear;
+    animation: fadeFloat 18s infinite linear;
 	animation-delay: 2s;
+	z-index: 2;
 }
 
 .animated-png-3 {
@@ -199,6 +201,7 @@ a.nav-item:hover {
     left: 2%;
     animation: fadeFloat 15s infinite linear;
 	animation-delay: 1s;
+	z-index: 3;
 }
 
 @keyframes float {
