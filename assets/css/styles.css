@@ -320,43 +320,38 @@ a.nav-item:hover {
     position: absolute;
     left: -100px; /* Start off the left side of the screen */
     width: 40px; /* Size of the golf ball */
-    animation: rollGolfBall 8s infinite ease-in-out;
+    animation: arcBounceRoll 4s ease-in-out forwards;
 }
 
 /* Keyframe animation for rolling and bouncing effect */
-@keyframes rollGolfBall {
+@keyframes arcBounceRoll {
+    /* Arc In */
     0% {
-        transform: translateX(0) rotate(0deg);
+        transform: translateX(0) translateY(0) scale(1);
+        opacity: 1;
     }
-    5% {
-        transform: translateX(25vw) translateY(25px) rotate(90deg); /* Bounce up slightly */
+    25% {
+        transform: translateX(300px) translateY(-100px) scale(1); /* Arcing up */
     }
-	10% {
-        transform: translateX(25vw) translateY(20px) rotate(90deg); /* Bounce up slightly */
-    }
-	15% {
-        transform: translateX(25vw) translateY(15px) rotate(90deg); /* Bounce up slightly */
-	}
-	20% {
-        transform: translateX(25vw) translateY(-25px) rotate(90deg); /* Bounce up slightly */
-	}
-	25% {
-        transform: translateX(25vw) translateY(-50px) rotate(90deg); /* Bounce up slightly */
-	}
-	30% {
-        transform: translateX(25vw) translateY(-75px) rotate(90deg); /* Bounce up slightly */
-	}
-	35% {
-        transform: translateX(5vw) translateY(5px) rotate(90deg); /* Bounce up slightly */
-	}
+
+    /* Bounce on Landing */
     50% {
-        transform: translateX(50vw) translateY(0) rotate(360deg);
+        transform: translateX(600px) translateY(0) scale(1); /* First contact */
     }
-    75% {
-        transform: translateX(75vw) translateY(0px) rotate(270deg); /* Bounce again */
+    55% {
+        transform: translateX(620px) translateY(-20px) scale(1); /* Small bounce up */
+    }
+    60% {
+        transform: translateX(650px) translateY(0) scale(1); /* Settle back down */
+    }
+
+    /* Roll to Flag */
+    80% {
+        transform: translateX(800px) translateY(0) scale(1);
     }
     100% {
-        transform: translateX(100vw) translateY(0) rotate(180deg); /* End at right edge */
+        transform: translateX(900px) translateY(0) scale(0.3); /* Shrink and disappear */
+        opacity: 0;
     }
 }
 
