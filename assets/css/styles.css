@@ -187,7 +187,7 @@ a.nav-item:hover {
 .animated-png-2 {
     position: relative;
 	width: 15%;
-    top: 5%;
+    top: 20%;
     left: -65%;
     animation: floatFadeAcross 28s infinite linear;
 	animation-delay: 3s;
@@ -197,7 +197,7 @@ a.nav-item:hover {
 .animated-png-3 {
     position: relative;
 	width: 18%;
-    top: 8%;
+    top: -8%;
     left: -45%;
     animation: floatHorizontally 38s infinite linear;
 	animation-delay: 2s;
