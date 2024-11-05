@@ -180,28 +180,36 @@ a.nav-item:hover {
 	width: 30%;
     top: 10%;
     left: 0%;
-    animation: float 15s infinite linear;
+    animation: float 15s infinite linear;	
 }
 
 .animated-png-2 {
     position: absolute;
 	width: 30%;
-    top: 10%;
-    left: 0%;
-    animation: float 15s infinite linear;
+    top: 15%;
+    left: 4%;
+    animation: fadeFloat 15s infinite linear;
+	animation-delay: 2s;
 }
 
 .animated-png-3 {
     position: absolute;
 	width: 30%;
-    top: 10%;
-    left: 0%;
-    animation: float 15s infinite linear;
+    top: 18%;
+    left: 2%;
+    animation: fadeFloat 15s infinite linear;
+	animation-delay: 1s;
 }
 
 @keyframes float {
     0% { transform: translateX(0); }
     100% { transform: translateX(100vw); }
+}
+
+@keyframes fadeFloat {
+    0% { transform: translateY(0); opacity: 0; }
+    50% { opacity: 1; }
+    100% { transform: translateY(-50px); opacity: 0; }
 }
 
 /* .video-section {
