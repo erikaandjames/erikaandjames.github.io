@@ -179,7 +179,23 @@ a.nav-item:hover {
     position: absolute;
 	width: 30%;
     top: 10%;
-    left: 5%;
+    left: 0%;
+    animation: float 15s infinite linear;
+}
+
+.animated-png-2 {
+    position: absolute;
+	width: 30%;
+    top: 10%;
+    left: 0%;
+    animation: float 15s infinite linear;
+}
+
+.animated-png-3 {
+    position: absolute;
+	width: 30%;
+    top: 10%;
+    left: 0%;
     animation: float 15s infinite linear;
 }
 
