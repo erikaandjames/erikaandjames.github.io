@@ -179,7 +179,7 @@ a.nav-item:hover {
     position: relative;
 	width: 24%;
     top: 10%;
-    left: -20%;
+    left: -30%;
     animation: floatHorizontally 24s infinite linear;	
 	z-index: 1;
 }
@@ -188,9 +188,9 @@ a.nav-item:hover {
     position: relative;
 	width: 15%;
     top: 5%;
-    left: -20%;
+    left: -65%;
     animation: floatFadeAcross 28s infinite linear;
-	animation-delay: 2s;
+	animation-delay: 3s;
 	z-index: 2;
 }
 
@@ -198,9 +198,9 @@ a.nav-item:hover {
     position: relative;
 	width: 18%;
     top: 8%;
-    left: -20%;
+    left: -45%;
     animation: floatHorizontally 30s infinite linear;
-	animation-delay: 1s;
+	animation-delay: 2s;
 	z-index: 3;
 }
 
