@@ -27,15 +27,15 @@ window.addEventListener('scroll', function() {
   if (section5) section4.style.transform = `translateY(${scrollPosition * -0.02}px)`;
 });
 
-window.addEventListener('scroll', function() {
-  const scrollPosition = window.scrollY;
-  const videoSection = document.querySelector('.parallax-video');
+// window.addEventListener('scroll', function() {
+//   const scrollPosition = window.scrollY;
+//   const videoSection = document.querySelector('.parallax-video');
 
-  // Apply slight upward movement to the video to simulate parallax
-  if (videoSection) {
-      videoSection.style.transform = `translate(-50%, calc(-50% + ${scrollPosition * 0.2}px))`;
-  }
-});
+//   // Apply slight upward movement to the video to simulate parallax
+//   if (videoSection) {
+//       videoSection.style.transform = `translateY(${scrollPosition * -0.05}px)`;
+//   }
+// });
 
 
 // window.addEventListener('scroll', function() {
