@@ -274,6 +274,26 @@ a.nav-item:hover {
     animation-delay: 0s;
 }
 
+.floating-lantern {
+    position: absolute;
+    bottom: 20%; /* Adjust starting height as needed */
+    width: 50px; /* Adjust size */
+    opacity: 0.8;
+    animation: sway 6s ease-in-out infinite alternate;
+}
+
+/* Rocking animation for the lanterns */
+@keyframes sway {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+    50% {
+        transform: translateX(-10px) rotate(-3deg); /* Sway to the left */
+    }
+    100% {
+        transform: translateX(10px) rotate(3deg); /* Sway to the right */
+    }
+}
 
 @keyframes floatFadeAcross {
     0% {
