@@ -230,6 +230,48 @@ a.nav-item:hover {
     100% { transform: translateY(-50px); }
 }
 
+@keyframes floatUpwards {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0.9;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(20px) translateY(-100vh); /* Moves slightly to the right */
+        opacity: 0;
+    }
+}
+
+.lantern {
+    position: absolute;
+    bottom: 0;
+    opacity: 0.8;
+}
+
+.lantern1 {
+    left: 20%;
+    width: 40px;
+    animation: floatUpwards 12s infinite ease-in;
+    animation-delay: 0s;
+}
+
+.lantern2 {
+    left: 50%;
+    width: 50px;
+    animation: floatUpwards 14s infinite ease-in;
+    animation-delay: 3s;
+}
+
+.lantern3 {
+    left: 80%;
+    width: 45px;
+    animation: floatUpwards 16s infinite ease-in;
+    animation-delay: 5s;
+}
+
+
 @keyframes floatFadeAcross {
     0% {
         transform: translateX(0) translateY(0);
