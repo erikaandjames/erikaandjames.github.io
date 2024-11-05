@@ -318,7 +318,6 @@ a.nav-item:hover {
 
 .golf-ball {
     position: absolute;
-    bottom:40%; /* Start close to the bottom */
     left: -100px; /* Start off the left side of the screen */
     width: 40px; /* Size of the golf ball */
     animation: rollGolfBall 8s infinite ease-in-out;
@@ -329,17 +328,35 @@ a.nav-item:hover {
     0% {
         transform: translateX(0) rotate(0deg);
     }
-    25% {
-        transform: translateX(25vw) translateY(-10px) rotate(90deg); /* Bounce up slightly */
+    5% {
+        transform: translateX(25vw) translateY(25px) rotate(90deg); /* Bounce up slightly */
     }
+	10% {
+        transform: translateX(25vw) translateY(20px) rotate(90deg); /* Bounce up slightly */
+    }
+	15% {
+        transform: translateX(25vw) translateY(15px) rotate(90deg); /* Bounce up slightly */
+	}
+	20% {
+        transform: translateX(25vw) translateY(-25px) rotate(90deg); /* Bounce up slightly */
+	}
+	25% {
+        transform: translateX(25vw) translateY(-50px) rotate(90deg); /* Bounce up slightly */
+	}
+	30% {
+        transform: translateX(25vw) translateY(-75px) rotate(90deg); /* Bounce up slightly */
+	}
+	35% {
+        transform: translateX(5vw) translateY(5px) rotate(90deg); /* Bounce up slightly */
+	}
     50% {
-        transform: translateX(50vw) translateY(0) rotate(180deg);
+        transform: translateX(50vw) translateY(0) rotate(360deg);
     }
     75% {
-        transform: translateX(75vw) translateY(-10px) rotate(270deg); /* Bounce again */
+        transform: translateX(75vw) translateY(0px) rotate(270deg); /* Bounce again */
     }
     100% {
-        transform: translateX(100vw) translateY(0) rotate(360deg); /* End at right edge */
+        transform: translateX(100vw) translateY(0) rotate(180deg); /* End at right edge */
     }
 }
 
