@@ -100,6 +100,18 @@ a.nav-item:hover {
 	background-color: transparent; 
 }
 
+.regular-section {
+    background-color: #f6f8f5; /* Light gray background */
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.regular-section .content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+}
+
 /* .parallax-background {
     background-image: url('../img/bg2.png');
 	background-color: lightblue;
@@ -165,7 +177,7 @@ a.nav-item:hover {
 
 .animated-png {
     position: absolute;
-	width: 5%;
+	width: 30%;
     top: 10%;
     left: 5%;
     animation: float 15s infinite linear;
