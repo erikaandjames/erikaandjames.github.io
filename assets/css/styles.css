@@ -177,9 +177,9 @@ a.nav-item:hover {
 
 .animated-png {
     position: relative;
-	width: 24%;
+	width: 20%;
     top: 10%;
-    left: -30%;
+    left: 130%;
     animation: floatHorizontallyReverse 45s infinite linear;	
 	z-index: 1;
 }
