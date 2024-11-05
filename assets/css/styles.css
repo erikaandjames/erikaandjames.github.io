@@ -252,23 +252,23 @@ a.nav-item:hover {
 
 .lantern1 {
     left: 20%;
-    width: 40px;
-    animation: floatUpwards 12s infinite ease-in;
+    width: 15%;
+    animation: floatVertically 16s infinite ease-in;
     animation-delay: 0s;
 }
 
 .lantern2 {
     left: 50%;
-    width: 50px;
+    width: 15%;
     animation: floatUpwards 14s infinite ease-in;
     animation-delay: 3s;
 }
 
 .lantern3 {
     left: 80%;
-    width: 45px;
-    animation: floatUpwards 16s infinite ease-in;
-    animation-delay: 5s;
+    width: 15%;
+    animation: floatVertically 16s infinite ease-in;
+    animation-delay: 0s;
 }
 
 
