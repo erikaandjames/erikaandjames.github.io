@@ -180,7 +180,7 @@ a.nav-item:hover {
 	width: 24%;
     top: 10%;
     left: -30%;
-    animation: floatHorizontally 24s infinite linear;	
+    animation: floatHorizontallyReverse 45s infinite linear;	
 	z-index: 1;
 }
 
@@ -199,7 +199,7 @@ a.nav-item:hover {
 	width: 18%;
     top: 8%;
     left: -45%;
-    animation: floatHorizontally 30s infinite linear;
+    animation: floatHorizontally 38s infinite linear;
 	animation-delay: 2s;
 	z-index: 3;
 }
@@ -218,6 +218,10 @@ a.nav-item:hover {
 @keyframes floatHorizontally {
     0% { transform: translateX(0); }
     100% { transform: translateX(100vw); }
+}
+@keyframes floatHorizontallyReverse {
+    0% { transform: translateX(100vw); }
+    100% { transform: translateX(0); }
 }
 
 /* Vertical Float */
