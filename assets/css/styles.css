@@ -40,6 +40,11 @@ section{
 	font-size: 1.2em;
     font-weight: bold;
     color: #1a1a1a;
+	text-shadow: 
+        0px 0px 5px rgba(241, 196, 15, 0.6),  /* Inner glow */
+        0px 0px 10px rgba(241, 196, 15, 0.5), /* Mid glow */
+        0px 0px 15px rgba(241, 196, 15, 0.4), /* Outer glow */
+        0px 0px 20px rgba(241, 196, 15, 0.3);
 }
 
 .section-2 {
@@ -61,52 +66,6 @@ section{
 .section-6 {
     background-image: url('../img/bg2.png'); /* Replace with Welcome background */
 }
-
-#welcome {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-}
-
-#welcome-text {
-	color: #f1c40f; /* Elegant gold or ivory color */
-    opacity: 0; /* Initially hidden */
-    animation: grandEntrance 3s ease forwards, moveToCorner 3s 3s ease forwards;
-}
-
-/* Grand entrance animation */
-@keyframes grandEntrance {
-    0% {
-        transform: scale(0.5);
-        opacity: 0;
-    }
-    50% {
-        transform: scale(1.2);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-
-/* Move to corner and fade out */
-@keyframes moveToCorner {
-    0% {
-        transform: translate(0, 0);
-        opacity: 1;
-    }
-    100% {
-        transform: translate(300px, -200px) scale(0.7); /* Adjust values to position in the corner */
-        opacity: 0;
-    }
-}
-
 
 #rsvp {
     background-color: #1a1a1a; /* Dark background for contrast */
