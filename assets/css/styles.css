@@ -37,7 +37,7 @@ section{
 .section-1 {
     background-image: url('../img/e_j_bw.JPG'); /* Replace with Welcome background */
 	font-family: 'Cinzel', serif;
-	font-size: 4.2em;
+	font-size: 6vw;
     font-weight: bold;
     color: #1a1a1a;
 	text-shadow: 
@@ -307,8 +307,7 @@ a.nav-item:hover {
 .content-welcome {
     position: absolute;
     padding: 100px 0; /* Adjust as needed */
-    text-align: center;
-	bottom:25%;
+    text-align: center;		
     z-index: 1;
 }
 
