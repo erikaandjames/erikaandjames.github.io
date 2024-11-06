@@ -455,10 +455,37 @@ a.nav-item:hover {
         transform: translateX(0) translateY(0) scale(1);
         opacity: 1;
     }
-    15% {
+    5% {
         transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
     }
-    30% {
+	7% {
+        transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
+    }
+	10% {
+        transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
+    }
+	13% {
+        transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
+    }
+	15% {
+        transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
+    }
+	18% {
+        transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
+    }
+    20% {
+        transform: translateX(300%) translateY(400%) scale(1); /* Midway in arc */
+    }
+	23% {
+        transform: translateX(300%) translateY(400%) scale(1); /* Midway in arc */
+    }
+	25% {
+        transform: translateX(300%) translateY(400%) scale(1); /* Midway in arc */
+    }
+	28% {
+        transform: translateX(300%) translateY(400%) scale(1); /* Midway in arc */
+    }
+	30% {
         transform: translateX(300%) translateY(400%) scale(1); /* Midway in arc */
     }
     45% {
