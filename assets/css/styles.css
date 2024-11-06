@@ -47,18 +47,58 @@ section{
 }
 
 .rsvp-button {
-    padding: 10px 20px;
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px;
     font-size: 18px;
     color: white;
-    background-color: #ff4081;
+    background-color: #d4af37; /* Gold color */
     text-decoration: none;
     border-radius: 5px;
-    transition: box-shadow 0.3s ease;
+    overflow: hidden;
+    transition: color 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .rsvp-button:hover {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    box-shadow: 0px 4px 20px rgba(212, 175, 55, 0.8); /* Stronger gold shadow on hover */
 }
+
+/* Halo effect around the button */
+.rsvp-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background: rgba(212, 175, 55, 0.5); /* Soft gold color */
+    box-shadow: 0 0 20px 10px rgba(212, 175, 55, 0.5), 0 0 30px 15px rgba(212, 175, 55, 0.3);
+    animation: haloGlow 3s infinite alternate;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+}
+
+/* Hover effect to intensify halo */
+.rsvp-button:hover::before {
+    opacity: 1;
+    box-shadow: 0 0 25px 15px rgba(212, 175, 55, 0.7), 0 0 35px 20px rgba(212, 175, 55, 0.5);
+}
+
+/* Keyframe animation for soft pulsating glow */
+@keyframes haloGlow {
+    0% {
+        box-shadow: 0 0 15px 5px rgba(212, 175, 55, 0.5), 0 0 20px 10px rgba(212, 175, 55, 0.3);
+        opacity: 0.8;
+    }
+    100% {
+        box-shadow: 0 0 25px 15px rgba(212, 175, 55, 0.7), 0 0 35px 20px rgba(212, 175, 55, 0.5);
+        opacity: 1;
+    }
+}
+
 
 
 /* a.nav-item {
