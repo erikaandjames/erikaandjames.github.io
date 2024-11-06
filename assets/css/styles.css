@@ -288,7 +288,7 @@ a.nav-item:hover {
 }
 
 .animated-png {
-    position: relative;
+    position: absolute;
 	width: 20%;
     top: 10%;
     left: 20%;
@@ -309,7 +309,7 @@ a.nav-item:hover {
 .animated-png-3 {
     position: relative;
 	width: 18%;
-    top: -8%;
+    top: 0;
     left: -45%;
     animation: floatHorizontally 55s infinite linear;
 	animation-delay: 2s;
