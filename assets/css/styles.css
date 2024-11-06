@@ -442,10 +442,10 @@ a.nav-item:hover {
 
 .golf-ball {
     position: absolute;
-    left: -10%; /* Start slightly offscreen */
+    left: 0; /* Start slightly offscreen */
     top: 5%; /* Start near the top */
     width: 2.5vw; /* Size of the golf ball based on viewport width for responsiveness */
-    animation: arcBounceRollSmooth 6s ease-in-out forwards;
+    animation: arcBounceRollSmooth 8s ease-in-out forwards;
 }
 
 /* Keyframe animation with smoother path and percentage-based positioning */
@@ -456,32 +456,32 @@ a.nav-item:hover {
         opacity: 1;
     }
     15% {
-        transform: translateX(15%) translateY(20%) scale(10); /* Arc upwards */
+        transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
     }
     30% {
-        transform: translateX(30%) translateY(40%) scale(10); /* Midway in arc */
+        transform: translateX(300%) translateY(400%) scale(1); /* Midway in arc */
     }
     45% {
-        transform: translateX(50%) translateY(55%) scale(10); /* Descending toward the landing area */
+        transform: translateX(500%) translateY(550%) scale(1); /* Descending toward the landing area */
     }
 
     /* Bounce on Landing */
     55% {
-        transform: translateX(60%) translateY(60%) scale(10); /* Land on green */
+        transform: translateX(600%) translateY(600%) scale(1); /* Land on green */
     }
     58% {
-        transform: translateX(62%) translateY(57%) scale(10); /* Small bounce up */
+        transform: translateX(620%) translateY(570%) scale(1); /* Small bounce up */
     }
     61% {
-        transform: translateX(65%) translateY(60%) scale(10); /* Settle back down */
+        transform: translateX(650%) translateY(600%) scale(1); /* Settle back down */
     }
 
     /* Roll to Flag */
     75% {
-        transform: translateX(85%) translateY(60%) scale(0.9); /* Rolling towards the flag */
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
     }
     100% {
-        transform: translateX(100%) translateY(60%) scale(0.7); /* Shrink as it reaches the flag and disappears */
+        transform: translateX(1000%) translateY(600%) scale(0.7); /* Shrink as it reaches the flag and disappears */
         opacity: 0;
     }
 }
