@@ -304,6 +304,14 @@ a.nav-item:hover {
     z-index: 1;
 }
 
+.content-welcome {
+    position: absolute;
+    padding: 100px 0; /* Adjust as needed */
+    text-align: center;
+	bottom:25%;
+    z-index: 1;
+}
+
 .animated-png {
     position: absolute;
 	width: 20%;
