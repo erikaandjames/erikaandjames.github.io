@@ -428,45 +428,46 @@ a.nav-item:hover {
     }
 }
 
+/* Position the golf ball offscreen initially */
 .golf-ball {
     position: absolute;
     left: -100px; /* Start off the left side of the screen */
-    width: 40px; /* Size of the golf ball */
-    animation: arcBounceRoll 4s ease-in-out forwards;
+    top: 0; /* Start near the top of the screen */
+    width: 30px; /* Adjust based on the desired ball size */
+    animation: arcBounceRoll 5s ease-in-out forwards;
 }
 
-/* Keyframe animation for rolling and bouncing effect */
+/* Keyframe animation for arcing, bouncing, and rolling */
 @keyframes arcBounceRoll {
     /* Arc In */
     0% {
         transform: translateX(0) translateY(0) scale(1);
         opacity: 1;
     }
-    25% {
-        transform: translateX(10%) translateY(-100px) scale(1); /* Arcing up */
+    20% {
+        transform: translateX(200px) translateY(150px) scale(1); /* Arcing downwards */
     }
 
     /* Bounce on Landing */
+    40% {
+        transform: translateX(400px) translateY(300px) scale(1); /* Land on green */
+    }
+    45% {
+        transform: translateX(420px) translateY(280px) scale(1); /* Small bounce up */
+    }
     50% {
-        transform: translateX(600px) translateY(0) scale(1); /* First contact */
-    }
-    55% {
-        transform: translateX(620px) translateY(-20px) scale(1); /* Small bounce up */
-    }
-    60% {
-        transform: translateX(650px) translateY(0) scale(1); /* Settle back down */
+        transform: translateX(450px) translateY(300px) scale(1); /* Settle back down */
     }
 
-    /* Roll to Flag */
-    80% {
-        transform: translateX(800px) translateY(0) scale(1);
+    /* Roll to the Flag */
+    75% {
+        transform: translateX(700px) translateY(300px) scale(0.8); /* Rolling towards the flag */
     }
     100% {
-        transform: translateX(900px) translateY(0) scale(0.3); /* Shrink and disappear */
-        opacity: 0;
+        transform: translateX(800px) translateY(300px) scale(0.5); /* Shrink as it disappears into the distance */
+        opacity: 0; /* Fade out for disappearing effect */
     }
 }
-
 
 /* .video-section {
     position: relative;
