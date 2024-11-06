@@ -36,6 +36,13 @@ section{
 
 .section-1 {
     background-image: url('../img/e_j_bw.JPG'); /* Replace with Welcome background */
+	background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Creates parallax effect if needed */
+    min-height: 100vh; /* Ensures section fills the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	font-family: 'Cinzel', serif;
 	font-size: 3vw;
     font-weight: bold;
@@ -49,10 +56,24 @@ section{
 
 .section-2 {
     background-image: url('../img/castle-1.png'); /* Replace with Venue background */
+	background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Creates parallax effect if needed */
+    min-height: 100vh; /* Ensures section fills the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-3 {
     background-image: url('../img/laugh.JPG'); /* Replace with Memory Lane background */
+	background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Creates parallax effect if needed */
+    min-height: 100vh; /* Ensures section fills the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-4 {
@@ -326,7 +347,7 @@ a.nav-item:hover {
     position: absolute;
     padding: 100px 0; /* Adjust as needed */
     text-align: center;	
-	bottom: 22%;	
+	bottom: 20%;	
     z-index: 1;
 }
 
