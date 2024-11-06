@@ -317,24 +317,6 @@ a.nav-item:hover {
     z-index: -2;
 } */
 
-#end {
-    background-image: url('path/to/your-background-image.jpg');
-    background-size: cover; /* Ensures the image covers the whole section */
-    background-position: center; /* Centers the image */
-    background-attachment: fixed; /* Creates parallax effect if needed */
-    min-height: 100vh; /* Ensures section fills the viewport height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media (max-width: 768px) {
-    #end {
-        background-attachment: scroll; /* Disable parallax effect on mobile */
-        background-position: center top; /* Adjust position if needed */
-    }
-}
-
 /* Content styling */
 .content {
     position: absolute;
