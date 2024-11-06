@@ -37,7 +37,7 @@ section{
 .section-1 {
     background-image: url('../img/e_j_bw.JPG'); /* Replace with Welcome background */
 	font-family: 'Cinzel', serif;
-	font-size: 6vw;
+	font-size: 3vw;
     font-weight: bold;
     color: #1a1a1a;
 	text-shadow: 
@@ -314,7 +314,6 @@ a.nav-item:hover {
     }
 }
 
-
 /* Content styling */
 .content {
     position: absolute;
@@ -326,7 +325,8 @@ a.nav-item:hover {
 .content-welcome {
     position: absolute;
     padding: 100px 0; /* Adjust as needed */
-    text-align: center;		
+    text-align: center;	
+	bottom: 22%;	
     z-index: 1;
 }
 
