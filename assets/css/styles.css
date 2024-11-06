@@ -18,7 +18,8 @@ section{
 }
 
 .parallax-section {
-    width: 100%;
+    display: flex;
+	width: 100%;
     height: 100vh; /* Full viewport height for each section */
     background-size: cover;
     background-position: center;
@@ -26,6 +27,7 @@ section{
     align-items: center; /* Centers vertically */
     background-attachment: fixed;
     color: #fff;
+	position: relative;
 }
 
 .section-1 {
@@ -308,7 +310,7 @@ a.nav-item:hover {
 }
 
 .lantern1 {
-    left: 20%;
+    left: 16%;
     width: 8%;
 	top: 18%; 
     animation: sway 6s ease-in-out infinite alternate;
@@ -316,7 +318,7 @@ a.nav-item:hover {
 }
 
 .lantern2 {
-    left: 50%;
+    left: 46%;
     width: 8%;
 	top: 10%; 
     animation: sway 6s ease-in-out infinite alternate;
@@ -324,20 +326,20 @@ a.nav-item:hover {
 }
 
 .lantern3 {
-    left: 80%;
+    left: 76%;
     width: 8%;
 	top: 18%;  
     animation: sway 6s ease-in-out infinite alternate;
     animation-delay: 0s;
 }
 
-.floating-lantern {
+/* .floating-lantern {
     position: absolute;
-    bottom: 20%; /* Adjust starting height as needed */
-    width: 50px; /* Adjust size */
+    top: 18%; 
+    width: 8%; 
     opacity: 0.8;
     animation: sway 6s ease-in-out infinite alternate;
-}
+} */
 
 /* Rocking animation for the lanterns */
 @keyframes sway {
