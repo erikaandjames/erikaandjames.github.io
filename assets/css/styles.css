@@ -456,55 +456,113 @@ a.nav-item:hover {
         opacity: 1;
     }
     5% {
-        transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
+        transform: translateX(1500%) translateY(2000%) scale(1); /* Arc upwards */
     }
 	7% {
-        transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
+        transform: translateX(1500%) translateY(2000%) scale(1); /* Arc upwards */
     }
 	10% {
-        transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
+        transform: translateX(1500%) translateY(2000%) scale(1); /* Arc upwards */
     }
 	13% {
-        transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
+        transform: translateX(1500%) translateY(2000%) scale(1); /* Arc upwards */
     }
 	15% {
-        transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
+        transform: translateX(1500%) translateY(2000%) scale(1); /* Arc upwards */
     }
 	18% {
-        transform: translateX(150%) translateY(200%) scale(1); /* Arc upwards */
+        transform: translateX(1500%) translateY(2000%) scale(1); /* Arc upwards */
     }
     20% {
-        transform: translateX(300%) translateY(400%) scale(1); /* Midway in arc */
+        transform: translateX(3000%) translateY(4000%) scale(1); /* Midway in arc */
     }
 	23% {
-        transform: translateX(300%) translateY(400%) scale(1); /* Midway in arc */
+        transform: translateX(3000%) translateY(4000%) scale(1); /* Midway in arc */
     }
 	25% {
-        transform: translateX(300%) translateY(400%) scale(1); /* Midway in arc */
+        transform: translateX(3000%) translateY(4000%) scale(1); /* Midway in arc */
     }
 	28% {
-        transform: translateX(300%) translateY(400%) scale(1); /* Midway in arc */
+        transform: translateX(3000%) translateY(4000%) scale(1); /* Midway in arc */
     }
 	30% {
-        transform: translateX(300%) translateY(400%) scale(1); /* Midway in arc */
+        transform: translateX(3000%) translateY(4000%) scale(1); /* Midway in arc */
     }
     45% {
-        transform: translateX(500%) translateY(550%) scale(1); /* Descending toward the landing area */
+        transform: translateX(5000%) translateY(5500%) scale(1); /* Descending toward the landing area */
     }
 
     /* Bounce on Landing */
     55% {
         transform: translateX(600%) translateY(600%) scale(1); /* Land on green */
     }
+	56% {
+        transform: translateX(600%) translateY(600%) scale(1); /* Land on green */
+    }
+	57% {
+        transform: translateX(600%) translateY(600%) scale(1); /* Land on green */
+    }
     58% {
+        transform: translateX(610%) translateY(580%) scale(1); /* Small bounce up */
+    }
+	59% {
         transform: translateX(620%) translateY(570%) scale(1); /* Small bounce up */
+    }
+	58% {
+        transform: translateX(600%) translateY(590%) scale(1); /* Small bounce up */
+    }
+	60% {
+        transform: translateX(600%) translateY(590%) scale(1); /* Small bounce up */
     }
     61% {
         transform: translateX(650%) translateY(600%) scale(1); /* Settle back down */
     }
+	62% {
+        transform: translateX(650%) translateY(600%) scale(1); /* Settle back down */
+    }
 
     /* Roll to Flag */
+
+	65% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
+	68% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
+	70% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
+	72% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
     75% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
+	78% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
+	80% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
+	82% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
+	85% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
+	88% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
+	90% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
+	92% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
+	95% {
+        transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
+    }
+	98% {
         transform: translateX(850%) translateY(600%) scale(0.9); /* Rolling towards the flag */
     }
     100% {
