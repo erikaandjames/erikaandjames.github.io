@@ -445,7 +445,7 @@ a.nav-item:hover {
     left: 0; /* Start slightly offscreen */
     top: 5%; /* Start near the top */
     width: 2.5vw; /* Size of the golf ball based on viewport width for responsiveness */
-    animation: arcBounceRollSmooth 8s ease-in-out forwards;
+    animation: arcBounceRollSmooth 8s ease forwards;
 }
 
 /* Keyframe animation with smoother path and percentage-based positioning */
