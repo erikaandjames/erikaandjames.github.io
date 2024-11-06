@@ -456,24 +456,24 @@ a.nav-item:hover {
         opacity: 1;
     }
     15% {
-        transform: translateX(15%) translateY(20%) scale(1); /* Arc upwards */
+        transform: translateX(15%) translateY(20%) scale(10); /* Arc upwards */
     }
     30% {
-        transform: translateX(30%) translateY(40%) scale(1); /* Midway in arc */
+        transform: translateX(30%) translateY(40%) scale(10); /* Midway in arc */
     }
     45% {
-        transform: translateX(50%) translateY(55%) scale(1); /* Descending toward the landing area */
+        transform: translateX(50%) translateY(55%) scale(10); /* Descending toward the landing area */
     }
 
     /* Bounce on Landing */
     55% {
-        transform: translateX(60%) translateY(60%) scale(1); /* Land on green */
+        transform: translateX(60%) translateY(60%) scale(10); /* Land on green */
     }
     58% {
-        transform: translateX(62%) translateY(57%) scale(1); /* Small bounce up */
+        transform: translateX(62%) translateY(57%) scale(10); /* Small bounce up */
     }
     61% {
-        transform: translateX(65%) translateY(60%) scale(1); /* Settle back down */
+        transform: translateX(65%) translateY(60%) scale(10); /* Settle back down */
     }
 
     /* Roll to Flag */
