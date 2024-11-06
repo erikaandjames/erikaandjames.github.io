@@ -428,44 +428,49 @@ a.nav-item:hover {
     }
 }
 
-/* Position the golf ball offscreen initially */
 .golf-ball {
     position: absolute;
-    left: -100px; /* Start off the left side of the screen */
-    top: 0; /* Start near the top of the screen */
-    width: 30px; /* Adjust based on the desired ball size */
-    animation: arcBounceRoll 5s ease-in-out forwards;
+    left: -10%; /* Start slightly offscreen */
+    top: 5%; /* Start near the top */
+    width: 2.5vw; /* Size of the golf ball based on viewport width for responsiveness */
+    animation: arcBounceRollSmooth 6s ease-in-out forwards;
 }
 
-/* Keyframe animation for arcing, bouncing, and rolling */
-@keyframes arcBounceRoll {
+/* Keyframe animation with smoother path and percentage-based positioning */
+@keyframes arcBounceRollSmooth {
     /* Arc In */
     0% {
         transform: translateX(0) translateY(0) scale(1);
         opacity: 1;
     }
-    20% {
-        transform: translateX(200px) translateY(150px) scale(1); /* Arcing downwards */
+    15% {
+        transform: translateX(15%) translateY(20%) scale(1); /* Arc upwards */
+    }
+    30% {
+        transform: translateX(30%) translateY(40%) scale(1); /* Midway in arc */
+    }
+    45% {
+        transform: translateX(50%) translateY(55%) scale(1); /* Descending toward the landing area */
     }
 
     /* Bounce on Landing */
-    40% {
-        transform: translateX(400px) translateY(300px) scale(1); /* Land on green */
+    55% {
+        transform: translateX(60%) translateY(60%) scale(1); /* Land on green */
     }
-    45% {
-        transform: translateX(420px) translateY(280px) scale(1); /* Small bounce up */
+    58% {
+        transform: translateX(62%) translateY(57%) scale(1); /* Small bounce up */
     }
-    50% {
-        transform: translateX(450px) translateY(300px) scale(1); /* Settle back down */
+    61% {
+        transform: translateX(65%) translateY(60%) scale(1); /* Settle back down */
     }
 
-    /* Roll to the Flag */
+    /* Roll to Flag */
     75% {
-        transform: translateX(700px) translateY(300px) scale(0.8); /* Rolling towards the flag */
+        transform: translateX(85%) translateY(60%) scale(0.9); /* Rolling towards the flag */
     }
     100% {
-        transform: translateX(800px) translateY(300px) scale(0.5); /* Shrink as it disappears into the distance */
-        opacity: 0; /* Fade out for disappearing effect */
+        transform: translateX(100%) translateY(60%) scale(0.7); /* Shrink as it reaches the flag and disappears */
+        opacity: 0;
     }
 }
 
