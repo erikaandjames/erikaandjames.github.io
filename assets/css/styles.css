@@ -15,6 +15,10 @@ a:hover {
 section{
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+	font-family: 'Cinzel', serif;
+	font-size: 1.2em;
+    font-weight: bold;
+    color: #1a1a1a;
 }
 
 .parallax-section {
@@ -32,6 +36,10 @@ section{
 
 .section-1 {
     background-image: url('../img/e_j_bw.JPG'); /* Replace with Welcome background */
+	font-family: 'Cinzel', serif;
+	font-size: 1.2em;
+    font-weight: bold;
+    color: #1a1a1a;
 }
 
 .section-2 {
@@ -48,6 +56,10 @@ section{
 
 .section-5 {
     background-image: url('../img/golf-2.png'); 
+}
+
+.section-6 {
+    background-image: url('../img/bg2.png'); /* Replace with Welcome background */
 }
 
 #rsvp {
